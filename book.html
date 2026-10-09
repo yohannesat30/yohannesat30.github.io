@@ -1,0 +1,58 @@
+<!-- slide: s2-first-rules · indicator 1 · end state -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Book a Table - Little Lemon</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <header>
+      <h1>LITTLE LEMON</h1>
+      <nav>
+        <a href="index.html">MENU</a> | 
+        <a href="location.html">LOCATION</a> | 
+        <a href="book.html">BOOK A TABLE</a>
+      </nav>
+    </header>
+
+    <hr>
+
+    <main>
+      <h2>BOOK A TABLE</h2>
+      <br>
+      
+      <form action="/book" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="party">Party size:</label><br>
+        <input type="number" id="party" name="party"><br><br>
+        
+        <input type="radio" id="indoor" name="seating" value="indoor">
+        <label for="indoor">Indoor</label>
+        
+        <input type="radio" id="outdoor" name="seating" value="outdoor">
+        <label for="outdoor">Outdoor</label><br><br>
+        
+        <label for="requests">Special requests:</label><br>
+        <textarea id="requests" name="requests" rows="3" cols="30"></textarea><br><br>
+        
+        <input type="submit" value="BOOK A TABLE" class="button">
+      </form>
+    </main>
+
+    <hr>
+
+    <footer>
+      <h4>VISIT OUR BRANCH LOCATIONS</h4>
+      <p>D'Kost by Cipta, Keputih Tegal X, Sukolilo</p>
+      <p>Open daily, 08:00–24:00 &middot; (+62) 819 3642 123</p>
+    </footer>
+
+  </body>
+</html>
